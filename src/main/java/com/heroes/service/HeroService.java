@@ -1,8 +1,8 @@
 package com.heroes.service;
 
 import com.heroes.dto.Name;
-import com.heroes.exceptions.HeroAlreadyExists;
-import com.heroes.exceptions.HeroNotFound;
+import com.heroes.exception.HeroAlreadyExists;
+import com.heroes.exception.HeroNotFound;
 import com.heroes.model.Hero;
 import com.heroes.repository.HeroRepository;
 import org.springframework.beans.factory.annotation.Autowired;
